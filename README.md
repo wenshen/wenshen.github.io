@@ -1,4 +1,3 @@
 # wenshen.github.io
-homepage
 
-A hosting for my personal website.
+A hosting for my personal website - www.wshen.net
