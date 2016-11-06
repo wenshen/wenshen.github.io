@@ -2586,7 +2586,7 @@
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 15em;
+		height: 11em;
 		width: 100%;
 	}
 
@@ -2786,7 +2786,7 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #222;
+				background: #3F5D7D;
 				color: #fff;
 				min-width: 320px;
 			}
