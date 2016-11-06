@@ -2786,7 +2786,7 @@
 				top: 0;
 				width: 100%;
 				z-index: 10001;
-				background: #3F5D7D;
+				background: #102D4A;
 				color: #fff;
 				min-width: 320px;
 			}
@@ -2828,7 +2828,7 @@
 					}
 
 					#titleBar .toggle:before {
-						background: #3F5D7D;
+						background: #102D4A;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
