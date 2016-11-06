@@ -56,6 +56,13 @@
 		box-sizing: border-box;
 	}
 
+.borderexample{
+    display: inline-block;
+    border:2px;
+    border-style:solid;
+    border-color:#3F5D7D;
+}
+
 /* Containers */
 
 	.container {
