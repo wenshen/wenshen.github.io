@@ -1,6 +1,10 @@
-
+<!DOCTYPE html>
 <html>
     <head>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" /><!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link href="assets/css/main.css" rel="stylesheet" /><!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        
         <title>Academic Deadlines Countdown Timer</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
@@ -166,7 +170,6 @@
             /* Some resetting */
             body {
                 font-family: Verdana, Helvetica, sans-serif;
-                font-size: 12px;
                 padding: 0;
                 margin: 0;
                 background-color: white;
@@ -194,11 +197,6 @@
         }
         
         /* Page title */
-        h1 {
-            display: inline;
-            margin-right: 10px;
-            font-size: 35px;
-        }
         
         /* Maintained by @karpathy */
         #signature {
@@ -226,15 +224,7 @@
             cursor: default;
         }
         /* website */
-        a:link {
-            color: black;
-            text-decoration: none;
-        }
-        a:visited {
-            color: black;
-            text-decoration: none;
-        }
-        /* Time left description div */
+               /* Time left description div */
         .tld {
             float: right;
             font-size: 18px;
@@ -274,24 +264,56 @@
         </style>
     </head>
     
-    <body>
-        <div id="surround">
-            <h1>Academic Countdown</h1>
-            <div id="currtime"></div>
-            <br /><br />
-            <div id="deadlinesdiv"></div>
-            <br />
-            <div id="bottompart">
-                <p>Please feel free to add your favorite deadlines.</p>
-                <br />
-                <br />
+    
+        <section id="header">
+            <header><span class="image avatar"><img alt="" src="images/avatar.jpg" /></span>
+                <h1 id="logo"><a href="#">Wen Shen</a></h1>
+                
+                <p>Department of Informatics<br />
+                University of California Irvine</p>
+            </header>
+        </section>
+        
+      <body>
+        <div id="wrapper"><!-- Main -->
+            <div id="main"><!-- One -->
+                <section id="home">
+                    <div align="justify" class="container">
+                        <header class="major">
+                            <h3 style="color:#3F5D7D">Academic Countdown</h3>
+                            <p></p>
+                        </header>
+                        <div id="currtime"></div>
+                        <br /><br />
+                        <div id="deadlinesdiv"></div>
+                        <br />
+                        <div id="bottompart">
+                            <p>Created by <a href="https://twitter.com/karpathy">@karpathy</a>, modified by <a href="https://twitter.com/wenshen">@wenshen</a></p>
+                            <br />
+                            <br />
+                        </div>
+                    
+                </div>
+                </section>
+                
+        
+        
+        <section id="footer">
+            <div align="center" class="container"><!--
+                                                   <div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://www.wshen.net', 'user' : 1125560, 'server' : '2', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2015-07-29', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www2.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www2.clustrmaps.com/user/c19112cb8"><img src="http://www2.clustrmaps.com/stats/maps-no_clusters/www.wshen.net-thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
+                                                   
+                                                   </br>
+                                                   -->
+            <ul class="copyright">
+                <li>&copy; <script>document.write(new Date().getFullYear());</script> <a href="#">Wen Shen</a></li>
+                <li><a href="https://html5up.net/read-only">Theme</a> by <a href="https://html5up.net">HTML5 UP</a></li>
+                <li><!-- BEGIN: Powered by Supercounters.com -->
+                    <center><script type="text/javascript" src="http://widget.supercounters.com/hit.js"></script><script type="text/javascript">sc_hit(1173630,4,5);</script><br />
+                        <noscript><a href="http://www.supercounters.com">Tumblr Hit Counter</a></noscript></center>
+                    <!-- END: Powered by Supercounters.com --> <!--</li>-->
+                    </ul>
             </div>
-           
+        </section>
         </div>
-        
-        <div id="signature">
-            Created by <a href="https://twitter.com/karpathy">@karpathy</a>, modified by <a href="https://twitter.com/wenshen">@wenshen</a>
-        </div>
-        
-    </body>
+        <!-- Scripts --><script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrollzer.min.js"></script><script src="assets/js/jquery.scrolly.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--><script src="assets/js/main.js"></script></body>
 </html>
