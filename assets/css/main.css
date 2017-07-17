@@ -2580,7 +2580,7 @@
 /* One */
 
 	#home:before {
-		background-image: url("../../images/newbanner.jpg");
+		background: url("../../images/newbanner01.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
