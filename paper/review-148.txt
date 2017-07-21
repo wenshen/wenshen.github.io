@@ -1,0 +1,140 @@
+HAI 2017 Papers
+
+Reviews of submission #148: "Regulating Highly Automated Robot Ecologies:
+Insights from Three User Studies"
+
+------------------------ Submission 148, Review 4 ------------------------
+
+Reviewer:           primary
+Overall rating:     4  (scale is 1..5; 5 is best)
+
+Overall Rating
+
+   4  (Probably accept: I would argue for accepting this paper.)
+
+Expertise
+
+   3  (Knowledgeable)
+
+The Review for External/Secondary AC or the Meta Review for Primary AC
+
+   All the three reviewers had positive evaluations for the paper in the
+   sense of the well done user studies on highly automated robot ecologies
+   (HARE).
+
+   R1 and R3 suggest the the authors should provide with more elaborate
+   discussions about the experiment results. Moreover, R2 suggests that the
+   authors should discuss relationships between the concept in the paper and
+   shared autonomy. This elaboration will heighten  the quality of the
+   paper.
+
+
+------------------------ Submission 148, Review 3 ------------------------
+
+Reviewer:           secondary
+Overall rating:     5  (scale is 1..5; 5 is best)
+
+Overall Rating
+
+   5  (Definite accept: I would argue strongly for accepting this paper.)
+
+Expertise
+
+   2  (Passing Knowledge)
+
+The Review for External/Secondary AC or the Meta Review for Primary AC
+
+   Indeed, the control of future agent societies is a core task as we move
+   into the age of autonomous robots and technical systems. That is also the
+   topic of the paper - Regulating highly automated robot ecologies (HARE).
+
+   The theoretical background is well presented and interesting, drawing on
+   concepts such as mechanism design, supervisory control, and human-swarm
+   interaction.
+
+   Furthermore, the empirical study with “micro-worlds” is sound.
+
+   However, the text would gain if the purpose of the paper was more
+   explicitly stated, based on the theories already presented in the text.
+
+   Further to the above, I am missing a more elaborate discussion/conclusion
+   combining results and theories.
+
+   In general I consider this to be a high quality submission.
+
+
+------------------------ Submission 148, Review 1 ------------------------
+
+Reviewer:           external
+Overall rating:     5  (scale is 1..5; 5 is best)
+
+Overall Rating
+
+   5  (Definite accept: I would argue strongly for accepting this paper.)
+
+Expertise
+
+   3  (Knowledgeable)
+
+The Review for External/Secondary AC or the Meta Review for Primary AC
+
+   I strongly recommend accepting this article. The article contains three
+   interesting and well done studies about highly automated robot ecologies
+   (HARE). The result was that adaptive robot autonomy, decision support and
+   regulator power can each diminish the outcomes in HARE. A simple robot
+   autonomy coupled with limited regulatory power was leading to the best
+   results. 
+   Suggestions for revisions:
+   My suggestion is to elaborate and discuss more deeply why adaptive robot
+   autonomy, decision support and regulator power can each diminish the
+   outcomes in HARE. Hypothetically speaking, are these outcomes dependent
+   on certain circumstances in the experiments? If the answer is yes, which
+   circumstances? Or are these outcomes a more general finding? If the
+   answer is yes, why does this happen?
+
+
+
+------------------------ Submission 148, Review 2 ------------------------
+
+Reviewer:           external
+Overall rating:     4  (scale is 1..5; 5 is best)
+
+Overall Rating
+
+   4  (Probably accept: I would argue for accepting this paper.)
+
+Expertise
+
+   3  (Knowledgeable)
+
+The Review for External/Secondary AC or the Meta Review for Primary AC
+
+   The authors present two case studies for the interaction between a set of
+   autonomous agents and a human regulator in optimizing load balancing
+   problems. Overall the paper is well written and easy to read. It provides
+   a thorough analysis of the studied problem and explains the results well.
+   One weaker point is the limited approach to the concept of "regulatory
+   power" which is confined to the number of external parameter changes. It
+   would also be conceivable to change the parameter adaptation or other
+   control parameters of the robots which in turn may then cooperate better
+   for the optimization task at hand. At least the studies reveal that a too
+   simple approach is not successful for optimal synergy between human
+   controller and autonomous agent. Basically they were not designed for
+   cooperation.
+
+   The authors could make reference to the recent work on "shared autonomy"
+   where the optimal responsibility distribution between human and robot is
+   investigated. A nice recent example with adaptive agents is:
+
+   Stefanos Nikolaidis, Yu Xiang Zhu, David Hsu, and
+   Siddhartha Srinivasa. 2017. Human-Robot Mutual
+   Adaptation in Shared Autonomy. Proc. Conf. on Human
+   Robot Interaction, Vienna (2017).
+
+   Another older example with a related investigation is:
+   Johnson, M., Bradshaw, J. M., Feltovich, P., Jonker, C., van Riemsdijk,
+   B., & Sierhuis, M. (2012). Autonomy and interdependence in
+   human-agent-robot teams. IEEE Intelligent Systems, 27(2), 43-51.
+
+
+
