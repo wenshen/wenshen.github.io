@@ -1,6 +1,0 @@
-@misc{yan2017emerging,
-title={Emerging Privacy Issues in Cyber-Enabled Sharing Services: Survey and Solutions},
-author={Yan, Ke and Shen, Wen and Lu, Huijuan and Jin, Qun},
-journal={Working Paper},
-year={2017}
-}

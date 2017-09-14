@@ -1,9 +1,0 @@
-@article{zheng2010implementing,
-title={Implementing Spam Filter by Improving Naive Bayesian Algorithm},
-author={Zheng, Wei and Shen, Wen and Zhang, Yingpeng},
-journal={Journal of Northwestern Polytechnical University},
-volume={28},
-number={4},
-pages={622--627},
-year={2010}
-}
