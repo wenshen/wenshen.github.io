@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Wen Shen</title>
+    <link>/</link>
+    <description>Recent content in Home on Wen Shen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publications</title>
+      <link>/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/</guid>
+      <description>Selected Publications See my Google Scholar profile for a full list
+2019
+ Beyond Nash Equilibrium: Mechanism Design with Thresholding Agents.  W. Shen ; Doctoral Disseration
+ A Simulation Analysis of Large Contests with Thresholding Agents.  W. Shen, R. Achar, and C. V. Lopes; WSC 2019
+ Multi-Winner Contests for Strategic Diffusion in Social Networks.  W. Shen, Y. Feng, and C. V. Lopes; AAAI 2019
+ Emerging Privacy Issues and Solutions in Cyber-Enabled Sharing Services: From Multiple Perspectives.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/research/</guid>
+      <description>Research Topics I am broadly interested in multi-agent systems, game theory, online learning and decision theory. My research has been primarily driven by the following intriguing question: 
+How can we design effective interventions that promote cooperations among multiple strategic agents to achieve desired outcomes? 
+I believe solving this problem can help us gain insights into how to tackle many societal challenges such as traffic congestion, climate change, disinformation propaganda and cyber attacks.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/teaching/</guid>
+      <description>Teaching Activities Reader, ICS5 - Global Disruption and Information Technology, Spring 2019  Mentor, Pratik Shetty (M.S. at UCI, Now a software engineer at Microsoft), 2018  Reader, ICS45J - Programming In Java, Spring 2018  Assistant, INF295 - Distributed Interactive Simulation, Spring 2016  Reader, INF124 - Internet Applications Engineering, Spring 2015 Reader, INF225/CS221 - Information Retrieval, Winter 2015 Reader, INF43 - Introduction to Software Engineering, Fall 2014</description>
+    </item>
+    
+  </channel>
+</rss>
