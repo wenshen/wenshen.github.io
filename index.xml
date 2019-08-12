@@ -11,16 +11,25 @@
     
     
     <item>
+      <title>Academic Countdown</title>
+      <link>/conf_countdown/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/conf_countdown/</guid>
+      <description>Academic Countdown a {text-decoration: none; color: #3F5D7D}   window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag(&#39;js&#39;, new Date()); gtag(&#39;config&#39;, &#39;UA-135909033-1&#39;);    // DATABASE var deadlines= new Array(); /* add yours here deadlines.push({ venue: &#34;&#34;, area: &#34;&#34;, deadline: moment(&#34;2000-00-00 00:00:00 +0000&#34;, &#34;YYYY-MM-DD HH:mm:ss Z&#34;), //website: &#34;&#34;, //approx: 1, }); */ //Artificial Intelligence deadlines.push({ venue: &#34;IJCAI 2020 (Yokohama, Japan)&#34;, area: &#34;Artificial Intelligence&#34;, deadline: moment(&#34;2020-02-25 23:59:59 -1200&#34;, &#34;YYYY-MM-DD HH:mm:ss Z&#34;</description>
+    </item>
+    
+    <item>
       <title>Publications</title>
       <link>/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/publications/</guid>
-      <description>Selected Publications See my Google Scholar profile for a full list
- Beyond Nash Equilibrium: Mechanism Design with Thresholding Agents.  W. Shen ; Doctoral Disseration (2019)
- A Simulation Analysis of Large Contests with Thresholding Agents.  W. Shen, R. Achar, and C. V. Lopes; WSC 2019
- Multi-Winner Contests for Strategic Diffusion in Social Networks.  W. Shen, Y. Feng, and C. V. Lopes; AAAI 2019
- Emerging Privacy Issues and Solutions in Cyber-Enabled Sharing Services: From Multiple Perspectives.</description>
+      <description>Selected Publications Full list: Google Scholar | Academic Calendar: Countdown
+Beyond Nash Equilibrium: Mechanism Design with Thresholding Agents.  W. Shen ; Doctoral Disseration (2019)
+A Simulation Analysis of Large Contests with Thresholding Agents.  W. Shen, R. Achar, and C. V. Lopes; WSC 2019
+Multi-Winner Contests for Strategic Diffusion in Social Networks.  W. Shen, Y. Feng, and C. V. Lopes; AAAI 2019
+Emerging Privacy Issues and Solutions in Cyber-Enabled Sharing Services: From Multiple Perspectives.</description>
     </item>
     
     <item>
