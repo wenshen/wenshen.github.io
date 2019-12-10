@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/conf_countdown/</guid>
-      <description>Academic Countdown a {text-decoration: none; color: #3F5D7D}   window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag(&#39;js&#39;, new Date()); gtag(&#39;config&#39;, &#39;UA-135909033-1&#39;);    // DATABASE var deadlines= new Array(); /* add yours here deadlines.push({ venue: &#34;&#34;, area: &#34;&#34;, deadline: moment(&#34;2000-00-00 00:00:00 +0000&#34;, &#34;YYYY-MM-DD HH:mm:ss Z&#34;), //website: &#34;&#34;, //approx: 1, }); */ //Artificial Intelligence deadlines.push({ venue: &#34;IJCAI 2020 (Yokohama, Japan)&#34;, area: &#34;Artificial Intelligence&#34;, deadline: moment(&#34;2020-02-25 23:59:59 -1200&#34;, &#34;YYYY-MM-DD HH:mm:ss Z&#34;</description>
+      <description>Academic Countdown a {text-decoration: none; color: #3F5D7D}   window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag(&#39;js&#39;, new Date()); gtag(&#39;config&#39;, &#39;UA-135909033-1&#39;);    // DATABASE var deadlines= new Array(); /* add yours here deadlines.push({ venue: &#34;&#34;, area: &#34;&#34;, deadline: moment(&#34;2000-00-00 00:00:00 +0000&#34;, &#34;YYYY-MM-DD HH:mm:ss Z&#34;), //website: &#34;&#34;, //approx: 1, }); */ //Artificial Intelligence deadlines.push({ venue: &#34;IJCAI 2020 (Yokohama, Japan)&#34;, area: &#34;Artificial Intelligence&#34;, deadline: moment(&#34;2020-01-21 23:59:59 -1200&#34;, &#34;YYYY-MM-DD HH:mm:ss Z&#34;</description>
     </item>
     
     <item>
@@ -38,7 +38,7 @@ Emerging Privacy Issues and Solutions in Cyber-Enabled Sharing Services: From Mu
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/research/</guid>
-      <description>Research Topics I am broadly interested in multi-agent systems, game theory, online learning and decision theory. My research has been primarily driven by the following intriguing question: 
+      <description>Research Topics I am generally interested in multi-agent systems, reinforcement learning, and game theory. My research has been primarily driven by the following intriguing question: 
 How can we design effective incentives/information structures/learning algorithms to help stakeholders make better decisions in the presence of uncertainty and strategic behavior? 
 I believe solutions to this problem can help us gain insights into how to tackle many societal challenges that include traffic congestion, climate change, misinformation propagation and cyber attacks.</description>
     </item>
