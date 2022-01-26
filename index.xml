@@ -1,22 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Wen Shen</title>
     <link>/</link>
     <description>Recent content in Home on Wen Shen</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Academic Countdown</title>
       <link>/conf_countdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/conf_countdown/</guid>
-      <description>Academic Countdown a {text-decoration: none; color: #3F5D7D}   window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag(&#39;js&#39;, new Date()); gtag(&#39;config&#39;, &#39;UA-135909033-1&#39;);    // DATABASE var deadlines= new Array(); /* add yours here deadlines.push({ venue: &#34;&#34;, area: &#34;&#34;, deadline: moment(&#34;2000-00-00 00:00:00 +0000&#34;, &#34;YYYY-MM-DD HH:mm:ss Z&#34;), //website: &#34;&#34;, //approx: 1, }); */ //Artificial Intelligence deadlines.push({ venue: &#34;IJCAI 2020 (Yokohama, Japan)&#34;, area: &#34;Artificial Intelligence&#34;, deadline: moment(&#34;2020-01-21 23:59:59 -1200&#34;, &#34;YYYY-MM-DD HH:mm:ss Z&#34;</description>
+      <description>Academic Countdown Top-tier venues in Multi-Agent Systems include AAMAS, NeurIPS, ICML, AAAI, and IJCAI. You may find it helpful to refer to a conference map by Kamishima and a ranking by Zaïane.This countdown was created by @karpathy, and modified by @wenshen</description>
     </item>
     
     <item>
@@ -26,9 +22,9 @@
       
       <guid>/publications/</guid>
       <description>Selected Publications Full List | DBLP
-Coordinated Attacks Against Federated Learning: A Multi-Agent Reinforcement Learning Approach.  W. Shen, H. Li, and Z. Zheng; ICLR 2021 Workshop on Security and Safety in Machine Learning Systems
-Learning to Attack Distributionally Robust Federated Learning.  W. Shen, H. Li, and Z. Zheng; NeurIPS 2020 Workshop on Scalability, Privacy, and Security in Federated Learning (Best Paper Award Nominee)
-Spatial-Temporal Moving Target Defense: A Markov Stackelberg Game Model.</description>
+[Coordinated Attacks Against Federated Learning: A Multi-Agent Reinforcement Learning Approach] (https://wshen.net/paper/Shen_MARL21.pdf). W. Shen, H. Li, and Z. Zheng; ICLR 2021 Workshop on Security and Safety in Machine Learning Systems
+[Learning to Attack Distributionally Robust Federated Learning] (https://wshen.net/paper/Shen_DRFL20.pdf). W. Shen, H. Li, and Z. Zheng; NeurIPS 2020 Workshop on Scalability, Privacy, and Security in Federated Learning (Best Paper Award Nominee)
+[Spatial-Temporal Moving Target Defense: A Markov Stackelberg Game Model] (https://wshen.</description>
     </item>
     
     <item>
@@ -37,9 +33,7 @@ Spatial-Temporal Moving Target Defense: A Markov Stackelberg Game Model.</descri
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/research/</guid>
-      <description>Research Topics I am generally interested in multi-agent systems, reinforcement learning, and game theory. My research has been primarily driven by the following intriguing question: 
-How can we design effective incentive mechanisms/information structures/learning algorithms to help stakeholders make quality decisions that are robust and resilient in the presence of uncertainty and strategic behavior? 
-I believe solutions to this problem can help us gain insights into how to tackle some of the most pressing social challenges that include traffic congestion, climate change, epidemics, misinformation propagation and cyber attacks.</description>
+      <description>Research Topics I am generally interested in multi-agent systems, reinforcement learning, and game theory. My research has been primarily driven by the following intriguing question: How can we design effective incentive mechanisms/information structures/learning algorithms to help stakeholders make quality decisions that are robust and resilient in the presence of uncertainty and strategic behavior? I believe solutions to this problem can help us gain insights into how to tackle some of the most pressing social challenges that include traffic congestion, climate change, epidemics, misinformation propagation and cyber attacks.</description>
     </item>
     
     <item>
@@ -48,7 +42,7 @@ I believe solutions to this problem can help us gain insights into how to tackle
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/teaching/</guid>
-      <description>Teaching Activities Mentor, Henger Li (Ph.D. candidate at Tulane), 2019 - ongoing  Reader, ICS5 - Global Disruption and Information Technology, Spring 2019  Mentor, Pratik Shetty (M.S. at UCI, Now a software engineer at Microsoft), 2018  Reader, ICS45J - Programming In Java, Spring 2018  Assistant, INF295 - Distributed Interactive Simulation, Spring 2016  Reader, INF124 - Internet Applications Engineering, Spring 2015 Reader, INF225/CS221 - Information Retrieval, Winter 2015 Reader, INF43 - Introduction to Software Engineering, Fall 2014</description>
+      <description>Teaching Activities Mentor, Henger Li (Ph.D. candidate at Tulane), 2019 - ongoing Reader, ICS5 - Global Disruption and Information Technology, Spring 2019 Mentor, Pratik Shetty (M.S. at UCI, Now a software engineer at Microsoft), 2018 Reader, ICS45J - Programming In Java, Spring 2018 Assistant, INF295 - Distributed Interactive Simulation, Spring 2016 Reader, INF124 - Internet Applications Engineering, Spring 2015Reader, INF225/CS221 - Information Retrieval, Winter 2015Reader, INF43 - Introduction to Software Engineering, Fall 2014</description>
     </item>
     
   </channel>

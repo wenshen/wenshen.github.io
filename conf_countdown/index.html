@@ -27,333 +27,31 @@
 
 
 <main>
-
-
-<h2 id="academic-countdown"><em>Academic Countdown</em></h2>
-
-<style type="text/css">a {text-decoration: none; color: #3F5D7D}</style>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-135909033-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'UA-135909033-1');
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-<script type="text/javascript">
-
-// DATABASE
-var deadlines= new Array();
-
-/* add yours here
-deadlines.push({
-venue: "",
-area: "",
-deadline: moment("2000-00-00 00:00:00 +0000", "YYYY-MM-DD HH:mm:ss Z"),
-//website: "",
-//approx: 1,
-});
-*/
-
-//Artificial Intelligence
-deadlines.push({
-venue: "IJCAI 2020 (Yokohama, Japan)",
-area: "Artificial Intelligence",
-deadline: moment("2020-01-21 23:59:59 -1200", "YYYY-MM-DD HH:mm:ss Z"),
-website: "https://ijcai20.org/",
-approx: 0,
-});
-
-deadlines.push({
-venue: "CSCW 2019 (Austin, Texas)",
-area: "Human Computer Interaction",
-deadline: moment("2019-03-28 14:59:59 -0700", "YYYY-MM-DD HH:mm:ss Z"),
-website: "https://cscw.acm.org/2019/index.html",
-approx: 0,
-});
-// Robotics
-deadlines.push({
-venue: "ICLR 2021 (Vienna, Austria)",
-area: "Deep Learning",
-deadline: moment("2020-09-29 23:59:59 -0700", "YYYY-MM-DD HH:mm:ss Z"),
-website: "https://iclr.cc/",
-approx: 1,
-});
-
-// Machine Learning
-deadlines.push({
-venue: "NeurIPS 2020 (Vancouver, Canada)",
-area: "Machine Learning",
-deadline: moment("2020-05-12 12:59:59 -0700", "YYYY-MM-DD HH:mm:ss Z"),
-website: "https://neurips.cc/Conferences/FutureMeetings",
-approx: 0,
-});
-
-deadlines.push({
-venue: "NeurIPS 2021 (Paris, France)",
-area: "Machine Learning",
-deadline: moment("2021-05-23 17:59:59 -0700", "YYYY-MM-DD HH:mm:ss Z"),
-website: "https://neurips.cc/Conferences/FutureMeetings",
-approx: 1,
-});
-
-
-deadlines.push({
-venue: "AAAI 2021 (Vancouver, Canada)",
-area: "Artificial Inteligence",
-deadline: moment("2020-09-09 23:59:59 -1000", "YYYY-MM-DD HH:mm:ss Z"),
-website: "https://aaai.org/Conferences/AAAI-21/",
-approx:1,
-});
-
-deadlines.push({
-venue: "AAMAS 2021 (London, UK)",
-area: "Multi-Agent Systems",
-deadline : moment("2020-11-12 23:59:59 -1200", "YYYY-MM-DD HH:mm:ss Z"),
-website:"http://www.ifaamas.org/",
-approx:1,
-});
-deadlines.push({
-venue: "AAMAS 2020 (Auckland, New Zealand)",
-area: "Multi-Agent Systems",
-deadline : moment("2019-11-15 23:59:59 -1200", "YYYY-MM-DD HH:mm:ss Z"),
-website:"https://aamas2020.conference.auckland.ac.nz/",
-approx:0,
-});
-deadlines.push({
-venue: "HCOMP 2019 (Skamania Lodge, WA)",
-area: "Human Computation",
-deadline : moment("2019-06-03 16:59:59 -0700", "YYYY-MM-DD HH:mm:ss Z"),
-website:"https://www.humancomputation.com/",
-approx:0,
-});
-deadlines.push({
-venue: "ICML 2020 (Vienna, Austria)",
-area: "Machine Learning",
-deadline : moment("2020-02-07 03:59:59 -0700", "YYYY-MM-DD HH:mm:ss Z"),
-website:"https://icml.cc/Conferences/2020",
-approx:0,
-});
-
-deadlines.push({
-venue: "ICML 2021 (Seoul, South Korea)",
-area: "Machine Learning",
-deadline : moment("2021-01-18 15:59:59 -0700", "YYYY-MM-DD HH:mm:ss Z"),
-website:"https://icml.cc/Conferences/2021",
-approx:1,
-});
-
-
-
-// HELPER FUNCTIONS
-var timeDescription = function(x) {  
-return x.format("MM/DD/YYYY h:mm:ss A");
-}
-
-var timeLeftDescription = function(t) {
-if(t<0) t=0;
-var tseconds = t / 1000;
-var seconds = Math.floor(tseconds) % 60;
-var tminutes = tseconds / 60;
-var minutes = Math.floor(tminutes) % 60;
-var thours = tminutes / 60;
-var hours = Math.floor(thours) % 24;
-var tdays = thours / 24;
-var days = Math.floor(tdays);
-return days + " days, " + hours + "h " + minutes + "m " + seconds + "s";
-}
-
-// Display function, called every second or so
-function refreshDisplay() {
-var d = moment();
-$("#currtime").text("Current time: " + timeDescription(d));
-
-// calculate and display deadlines
-for(var i=0;i<deadlines.length;i++) {
-var dl= deadlines[i];
-var timeLeft= dl.deadline - d;
-
-if (timeLeft <= 0){
-continue;
-}
-
-warningString= "";
-if(dl.approx == 1) { warningString= "based on previous year!"; }
-
-prefix = "";
-suffix = "";
-if ("website" in dl) {
-prefix = "<a class=\"sd\" href=\"" + dl.website + "\">";
-suffix = "</a>";
-}
-
-$("#deadline" + i).html(
-prefix + "<div class=\"tld\">" + timeLeftDescription(timeLeft) + "</div>"
-+ "<div class=\"vd\">" + dl.venue + "</div>"
-+ "<div class=\"ad\">" + dl.area + "</div>"
-+ "<div class=\"td\">Deadline: " + timeDescription(dl.deadline) + "</div>"
-+ "<div class=\"wd\">" + warningString + "</div>"
-+ suffix
-);
-}
-}
-
-// int main(){}
-$(document).ready(function() {
-deadlines.sort(function(a, b) {
-return a.deadline - b.deadline;
-});
-// create divs for all deadlines and insert into DOM
-for(var i=0;i<deadlines.length;i++) {
-var d = moment();
-var dl= deadlines[i];
-var timeLeft= dl.deadline - d;
-
-if (timeLeft <= 0){
-continue;
-}
-$("<div class=dd id=deadline" + i + "></div>").appendTo("div#deadlinesdiv");
-var divid= "#deadline" + i;
-
-$(divid).hide();
-$(divid).fadeIn(100*(i+1), function() { }); // create a nice fade in effect
-}
-
-// set up deadline timer to redraw
-setInterval(
-function(){ refreshDisplay(); },
-1000
-);
-
-// draw!
-refreshDisplay();
-});
-</script>
-
-<style type="text/css">
-/* Some resetting */
-
-
-/* Main content div */
-#surround {
-margin-left: auto;
-margin-right: auto;
-margin-top: 50px;
-width: 600px;
-background-color: white;
-}
-
-/* Div that contains all deadlines */
-#deadlinesdiv {
-font-size: 12px;
-}
-
-#currtime {
-font-size: 14px;
-}
-#bottompart {
-text-align: justify;
-}
-
-/* Page title */
-
-/* Maintained by @karpathy */
-#signature {
-position: absolute;
-bottom: auto;
-right: 0;
-text-align: center;
-padding-bottom: 15px;
-padding-right: 30px;
-/*font-size: 14px;*/
-}
-
-/* The cells that contain each deadline */
-.dd {
-padding: 10px;
-margin-bottom: 3px;  
-background-color: #EEE;
-border: 1px solid #DDD;
-cursor: pointer;
-position: relative;
-}
-.dd:hover {
-background-color: #DDD;
-border: 1px solid #AAA;
-cursor: default;
-}
-/* website */
-/* Time left description div */
-.tld {
-float: right;
-font-size: 18px;
-font-weight: bold;
-margin-top: 16px;
-}
-
-/* Area description div */
-.ad {
-font-family: monospace;
-}
-
-/* Time description div */
-.td {
-}
-
-/* Venue description div */
-.vd {
-font-weight: bold;
-font-size: 16px;
-}
-
-/* Warning div */
-.wd {
-position: absolute;
-bottom: 10px;
-right: 8px;
-color: #700;
-font-size: 10px;
-}
-#musiclink a {
-color: #AAA;
-position: fixed;
-bottom: 30px;
-right: 30px;
-}
-</style>
-
-<!-- Banner -->
-
-<div class="inner">
-<div align="justify" class="content">
-
-<div id="currtime"></div>
-<br /><br />
-<div id="deadlinesdiv"></div>
-<br />
-<div id="bottompart" align="justify">
-
-Top-tier venues in Multi-Agent Systems include AAMAS, NeurIPS, ICML, AAAI, and IJCAI. <br/>
-You may find it helpful to refer to a conference <a href="http://www.kamishima.net/archive/MLDMAImap.pdf"> map </a> by Kamishima and a <a href="http://webdocs.cs.ualberta.ca/~zaiane/htmldocs/ConfRanking.html"> ranking </a> by Zaïane.<br/>
-This countdown was created by <a href="https://twitter.com/karpathy">@karpathy</a>, and modified by <a href="https://twitter.com/wenshen">@wenshen</a>
-
-
-<br />
-<br />
-</div>
-</div>
-</div>
-
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+<h2 id="_academic-countdown_"><em>Academic Countdown</em></h2>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Top-tier venues in Multi-Agent Systems include AAMAS, NeurIPS, ICML, AAAI, and IJCAI. <!-- raw HTML omitted -->
+You may find it helpful to refer to a conference <!-- raw HTML omitted --> map <!-- raw HTML omitted --> by Kamishima and a <!-- raw HTML omitted --> ranking <!-- raw HTML omitted --> by Zaïane.<!-- raw HTML omitted -->
+This countdown was created by <!-- raw HTML omitted -->@karpathy<!-- raw HTML omitted -->, and modified by <!-- raw HTML omitted -->@wenshen<!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
 </main>
 
@@ -361,7 +59,7 @@ This countdown was created by <a href="https://twitter.com/karpathy">@karpathy</
   
   
   <hr/>
-  &copy; <a href="https://wshen.net">Wen Shen</a> <script>document.write(new Date().getFullYear());</script> | Theme: <a href="https://themes.gohugo.io/hugo-xmin/">Hugo XMin</a>
+  © <a href="https://wshen.net">Wen Shen</a> <!-- raw HTML omitted -->document.write(new Date().getFullYear());<!-- raw HTML omitted --> | Theme: <a href="https://themes.gohugo.io/hugo-xmin/">Hugo XMin</a>
   
   </footer>
   </body>
